@@ -13,7 +13,7 @@ const Evideo = () => {
     prevArrow: <PrevArrow></PrevArrow>,
     nextArrow: <NextArrow></NextArrow>,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 3000,
     autoplaySpeed: 5000,
     pauseOnHover: true,
@@ -81,8 +81,7 @@ const Evideo = () => {
                 </div>
                 <div className='item-content'>
                   <p>
-                    더미텍스트를 찾아보려 했는데 영어밖에 없어서 화가 난
-                    더미텍스트??? 얘는 또 뭔 버그에 걸려있어
+                    더미텍스트를 찾아보려 했는데 영어밖에
                   </p>
                 </div>
               </div>

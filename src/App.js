@@ -7,13 +7,14 @@ import VideoBox from './components/VideoBox';
 import './App.css';
 
 function App() {
-  return (
+
+    return (
     <div>
       <Logo></Logo>
-      <div className='allBoard'>
-        <VideoBox></VideoBox>
-        <Main_Board></Main_Board>
-      </div>
+          <div className='allBoard'>
+            <VideoBox></VideoBox>
+            <Main_Board></Main_Board>
+          </div>
     </div>
   );
 }
